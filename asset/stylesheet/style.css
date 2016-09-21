@@ -1,0 +1,49 @@
+﻿body
+{
+	padding:0px;
+	margin:0px;
+}
+.menu 
+{
+	list-style-type:none;
+	text-align:center;
+}
+.menu li 
+{
+	display:inline-block;
+	padding:10px;
+	border-radius:3px;
+	border:2px solid black; 
+    margin:0 5px;
+	
+}
+.menu{background:rgb(220,220,220);}
+.menu li:hover
+{
+	font-weight:bold;
+	font-size:1.2em;
+	cursor:pointer;
+	background-color:green;
+}
+#section 
+{
+	width:100%;
+	margin-left: 50%;
+	margin-right:50%;
+}
+#section > .red 
+{
+	width:200px;
+	height:200px;
+	background:red;
+}
+#section div
+{
+	float: left;
+}
+#me
+{
+	width:200px;
+	height:200px;
+background:green;	
+}
